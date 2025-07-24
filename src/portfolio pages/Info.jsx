@@ -1,7 +1,8 @@
 import React from 'react'
 
-function Contact() {
-  return (
+function Info() {
+ 
+     return (
     <div className='p-6 max-w-lg mx-auto'>
       <h2 className='text-2xl font-bold mb-4 text-center'>Contact me</h2>
       <form className='space-y-4'>
@@ -19,6 +20,7 @@ function Contact() {
       </form>
     </div>
   )
+  
 }
 
-export default Contact
+export default Info
